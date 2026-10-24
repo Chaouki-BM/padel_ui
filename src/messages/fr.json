@@ -1,0 +1,1297 @@
+{
+  "common": {
+    "loading": "Chargement…",
+    "error": "Une erreur est survenue",
+    "errorRetry": "Réessayer",
+    "notFound": "Page introuvable",
+    "notFoundDescription": "La page que vous cherchez n'existe pas.",
+    "backHome": "Retour à l'accueil"
+  },
+  "header": {
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "mySpace": "Mon espace",
+    "logout": "Déconnexion"
+  },
+  "authForms": {
+    "loginTitle": "Bienvenue",
+    "loginSubtitle": "Connectez-vous pour réserver un terrain",
+    "registerTitle": "Créer un compte",
+    "registerSubtitle": "Inscrivez-vous pour réserver les meilleurs terrains",
+    "email": "Email",
+    "emailPlaceholder": "votre@email.com",
+    "password": "Mot de passe",
+    "passwordHint": "8 caractères min., lettre + chiffre",
+    "forgotPassword": "Mot de passe oublié ?",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "city": "Ville",
+    "cityPlaceholder": "Tunis",
+    "birthDate": "Date de naissance",
+    "phone": "Téléphone",
+    "level": "Niveau",
+    "levelOptional": "Niveau (optionnel)",
+    "loginSubmit": "Se connecter",
+    "registerSubmit": "Créer mon compte",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "createAccount": "Créer un compte",
+    "hasAccount": "Déjà un compte ?",
+    "loginLink": "Se connecter",
+    "submitting": "Patientez…",
+    "errorGeneric": "Une erreur est survenue",
+    "forgotTitle": "Mot de passe oublié",
+    "forgotSubtitle": "Entrez votre email pour recevoir un lien de réinitialisation",
+    "forgotSubmit": "Envoyer le lien",
+    "forgotSuccess": "Si un compte existe, un email a été envoyé.",
+    "resetTitle": "Nouveau mot de passe",
+    "resetSubtitle": "Choisissez un nouveau mot de passe",
+    "resetSubmit": "Enregistrer",
+    "resetSuccess": "Mot de passe mis à jour. Connectez-vous.",
+    "resetMissingToken": "Lien invalide ou expiré.",
+    "verifyTitle": "Vérification de l'email",
+    "verifySubtitle": "Confirmation de votre adresse email",
+    "verifySuccess": "Email vérifié. Vous pouvez vous connecter.",
+    "verifyMissingToken": "Lien de vérification manquant.",
+    "verifySubmit": "Vérifier",
+    "backToLogin": "Retour à la connexion"
+  },
+  "nav": {
+    "home": "Accueil",
+    "clubs": "Clubs",
+    "bookings": "Réservations",
+    "reserveCoach": "Réserver un coach",
+    "matches": "Matchs",
+    "profile": "Profil",
+    "events": "Événements",
+    "tournaments": "Tournois",
+    "coaches": "Coachs",
+    "wallet": "Portefeuille",
+    "notifications": "Notifications",
+    "ranking": "Classement",
+    "settings": "Paramètres",
+    "searchShort": "Rechercher…",
+    "searchPlaceholder": "Rechercher un club, un joueur, un tournoi…",
+    "menuPrincipal": "Menu principal",
+    "login": "Connexion"
+  },
+  "playerHome": {
+    "brand": "PADELTUNISIE PRO",
+    "heroTitle": "PRÊT POUR VOTRE",
+    "heroTitleLine2": "PROCHAIN MATCH ?",
+    "heroSubtitle": "Réservez les meilleurs terrains de Tunisie et rejoignez la communauté grandissante des joueurs de Padel.",
+    "ctaBook": "Réserver un terrain",
+    "ctaJoin": "Rejoindre un match",
+    "statMatches": "MATCHS JOUÉS",
+    "statLevel": "NIVEAU ACTUEL",
+    "statStreak": "SÉRIE",
+    "statCredits": "CRÉDITS",
+    "upcomingBookings": "Mes Prochaines Réservations",
+    "seeAll": "Voir tout",
+    "joinPlaces": "Rejoindre ({count} places)"
+  },
+  "publicLanding": {
+    "brand": "PADELTUNISIE",
+    "heroTitle": "Terrains et coachs de padel en Tunisie",
+    "heroSubtitle": "Parcourez clubs, coachs et matchs ouverts. Connectez-vous pour réserver ou rejoindre.",
+    "searchPlaceholder": "Rechercher un club, un coach, un match…",
+    "allCities": "Toutes les villes",
+    "stadiumsTitle": "Stades & clubs",
+    "stadiumsSubtitle": "Découvrez les terrains près de chez vous",
+    "stadiumsResults": "{count} clubs",
+    "clubsError": "Impossible de charger les clubs.",
+    "clubsEmpty": "Aucun club pour cette recherche.",
+    "coachesTitle": "Coachs",
+    "coachesSubtitle": "Trouvez un coach pour progresser",
+    "coachesResults": "{count} coachs",
+    "coachesError": "Impossible de charger les coachs.",
+    "coachesEmpty": "Aucun coach pour cette recherche.",
+    "matchesTitle": "Matchs ouverts",
+    "matchesSubtitle": "Rejoignez une partie près de chez vous",
+    "matchesResults": "{count} matchs",
+    "matchesError": "Impossible de charger les matchs ouverts.",
+    "matchesEmpty": "Aucun match ouvert pour cette recherche.",
+    "retry": "Réessayer"
+  },
+  "roles": {
+    "player": "Joueur",
+    "club": "Club",
+    "coach": "Coach",
+    "admin": "Admin",
+    "sponsor": "Sponsor"
+  },
+  "devSwitcher": {
+    "label": "Rôle actuel",
+    "title": "Switcher de rôle (dev)"
+  },
+  "pages": {
+    "public": {
+      "landing": "Accueil",
+      "clubs": "Clubs à {city}",
+      "clubDetail": "Fiche club",
+      "coachDetail": "Fiche coach",
+      "events": "Événements",
+      "eventDetail": "Détail événement",
+      "tournaments": "Tournois"
+    },
+    "auth": {
+      "login": "Connexion",
+      "register": "Inscription",
+      "verifyOtp": "Vérification OTP",
+      "verifyEmail": "Vérification email",
+      "forgotPassword": "Mot de passe oublié",
+      "resetPassword": "Réinitialiser le mot de passe"
+    },
+    "player": {
+      "home": "Tableau de bord joueur",
+      "clubs": "Clubs",
+      "book": "Réserver un terrain",
+      "bookings": "Mes réservations",
+      "openMatches": "Matchs ouverts",
+      "newOpenMatch": "Nouveau match ouvert",
+      "openMatchDetail": "Détail du match ouvert",
+      "results": "Résultat du match",
+      "ranking": "Classement",
+      "events": "Mes événements",
+      "eventDetail": "Détail événement",
+      "tournamentDetail": "Détail tournoi",
+      "coaches": "Coachs",
+      "wallet": "Portefeuille",
+      "notifications": "Notifications",
+      "sanctions": "Sanctions",
+      "profile": "Mon profil",
+      "settings": "Paramètres"
+    },
+    "club": {
+      "overview": "Vue d'ensemble",
+      "courts": "Terrains",
+      "calendar": "Calendrier",
+      "events": "Événements",
+      "players": "Joueurs",
+      "offers": "Offres"
+    },
+    "coach": {
+      "profile": "Tableau de bord",
+      "availability": "Disponibilités",
+      "requests": "Demandes",
+      "clients": "Mes clients"
+    },
+    "admin": {
+      "overview": "Vue d'ensemble",
+      "finance": "Finances",
+      "users": "Utilisateurs",
+      "clubs": "Clubs",
+      "coaches": "Coachs",
+      "events": "Événements",
+      "payments": "Paiements",
+      "sponsors": "Sponsors",
+      "ads": "Publicités",
+      "promotions": "Promotions",
+      "complaints": "Réclamations",
+      "settings": "Paramètres"
+    },
+    "sponsor": {
+      "campaigns": "Campagnes",
+      "assets": "Ressources"
+    }
+  },
+  "devLanding": {
+    "title": "Index des routes (dev)",
+    "public": "Pages publiques",
+    "auth": "Authentification",
+    "player": "Espace joueur",
+    "club": "Dashboard club",
+    "coach": "Espace coach",
+    "admin": "Administration",
+    "sponsor": "Espace sponsor"
+  },
+  "bookingsPage": {
+    "title": "Mes Réservations",
+    "subtitle": "Gérez vos parties à venir et consultez votre historique de jeu.",
+    "tabs": {
+      "upcoming": "À venir ({count})",
+      "history": "Historique"
+    },
+    "empty": "Aucune réservation",
+    "cancelSuccess": "Réservation annulée",
+    "cancelSuccessRefund": "Annulée — remboursement {percent}%",
+    "card": {
+      "status": {
+        "confirmed": "Confirmé",
+        "pending": "En attente",
+        "cancelled": "Annulé",
+        "held": "En attente de paiement"
+      },
+      "date": "DATE",
+      "time": "HORAIRE",
+      "court": "TERRAIN",
+      "id": "ID:",
+      "currency": "TND",
+      "cancelAction": "Annuler la réservation",
+      "payNow": "Payer maintenant",
+      "refund": {
+        "full": "Éligible au remboursement total",
+        "partial": "Éligible au remboursement partiel",
+        "none": "Non remboursable"
+      }
+    },
+    "faq": {
+      "title": "Aide & Support",
+      "q1": "Comment fonctionne le remboursement ?",
+      "a1": "Le remboursement dépend de l'heure d'annulation, veuillez consulter la politique.",
+      "q2": "Puis-je modifier l'horaire ?",
+      "a2": "Vous pouvez modifier l'horaire jusqu'à 24h avant le début de la partie, sous réserve de disponibilité.",
+      "q3": "Problème avec le club ?",
+      "a3": "Veuillez contacter le club directement pour tout problème logistique ou notre support pour des problèmes de plateforme."
+    },
+    "refundPolicy": {
+      "title": "Politique de Remboursement",
+      "subtitle": "Consultez les règles d'annulation de PadelTunisie",
+      "freeCancellation": {
+        "title": "ANNULATION GRATUITE",
+        "desc": "Plus de 24h avant le match. Remboursement à 100% sur votre portefeuille."
+      },
+      "lateCancellation": {
+        "title": "ANNULATION TARDIVE",
+        "desc": "Entre 12h et 24h. Remboursement à 50% sur votre portefeuille."
+      },
+      "noRefund": {
+        "title": "AUCUN REMBOURSEMENT",
+        "desc": "Moins de 12h avant le match. Le montant total est conservé par le club."
+      },
+      "velocityPro": {
+        "title": "Garantie Velocity Pro",
+        "desc": "Protection contre les annulations abusives."
+      }
+    },
+    "support": {
+      "title": "Aide & Support",
+      "q1": "Comment fonctionne le remboursement ?",
+      "a1": "Le remboursement dépend de l'heure d'annulation, veuillez consulter la politique.",
+      "q2": "Puis-je modifier l'horaire ?",
+      "a2": "Vous pouvez modifier l'horaire jusqu'à 24h avant le début de la partie, sous réserve de disponibilité.",
+      "q3": "Problème avec le club ?",
+      "a3": "Veuillez contacter le club directement pour tout problème logistique ou notre support pour des problèmes de plateforme.",
+      "moreHelp": "Besoin d'aide supplémentaire ?"
+    },
+    "wallet": {
+      "availableBalance": "SOLDE DISPONIBLE",
+      "currency": "TND",
+      "walletName": "PORTEFEUILLE PADELTUNISIE",
+      "historyAction": "Voir l'historique des transactions"
+    }
+  },
+  "notificationsPage": {
+    "title": "Notifications",
+    "unread": "{count} non lues",
+    "markAll": "Tout marquer lu",
+    "markRead": "Marquer lu",
+    "empty": "Aucune notification",
+    "untitled": "Notification",
+    "markedAll": "Toutes les notifications marquées comme lues"
+  },
+  "sanctionsPage": {
+    "title": "Sanctions & comportement",
+    "status": "Statut : {status}",
+    "sanctions": "Sanctions",
+    "infractions": "Infractions",
+    "appeals": "Contestations",
+    "emptySanctions": "Aucune sanction",
+    "emptyInfractions": "Aucune infraction",
+    "emptyAppeals": "Aucune contestation",
+    "sanctionIdOptional": "ID sanction (optionnel)",
+    "appealMessage": "Message de contestation",
+    "submitAppeal": "Envoyer la contestation",
+    "appealSent": "Contestation envoyée"
+  },
+  "profilePage": {
+    "title": "Mon profil",
+    "subtitle": "Gérez vos informations personnelles et vos paramètres.",
+    "memberSince": "Membre depuis {year}",
+    "editPhoto": "Changer la photo",
+    "personalInfo": "Informations personnelles",
+    "fields": {
+      "displayName": "Nom affiché",
+      "phone": "Téléphone",
+      "email": "Email",
+      "city": "Ville"
+    },
+    "saveProfile": "Enregistrer",
+    "settingsTitle": "Paramètres",
+    "settings": {
+      "notifications": "Notifications",
+      "notificationsDesc": "Recevoir les alertes matchs et réservations",
+      "darkMode": "Mode sombre",
+      "darkModeDesc": "Activer le thème sombre de l'application",
+      "language": "Langue",
+      "languageValue": "Français",
+      "password": "Mot de passe",
+      "passwordAction": "Modifier le mot de passe"
+    }
+  },
+  "bookingCalendar": {
+    "title": "Calendrier des Disponibilités",
+    "subtitle": "Réservez en temps réel aux meilleurs tarifs en TND.",
+    "advancedFilters": "Filtres Avancés",
+    "openMatch": "Match Ouvert",
+    "premiumBadge": "Premium Club",
+    "clubInfo": "Infos Club",
+    "courtType": "Type de terrain",
+    "duration": "Durée",
+    "paymentMode": "Paiement",
+    "payOnSite": "Sur place",
+    "payCard": "Carte (simulation)",
+    "payTokens": "Jetons",
+    "specialOfferTitle": "Offre Spéciale",
+    "specialOfferDesc": "−15% sur les créneaux du matin avant 10h00. Offre limitée aux membres PadelTunisie.",
+    "cancelPolicyTitle": "Politique d'Annulation",
+    "cancelPolicyDesc": "Annulation gratuite jusqu'à 24h avant le début du créneau. Passé ce délai, des frais partiels peuvent s'appliquer.",
+    "periods": {
+      "morning": "Matinée",
+      "afternoon": "Après-midi",
+      "evening": "Soirée"
+    },
+    "currency": "TND",
+    "status": {
+      "available": "Dispo",
+      "occupied": "Occupé",
+      "reserved": "Réservé",
+      "maintenance": "Maintenance"
+    },
+    "legend": {
+      "available": "Disponible",
+      "occupied": "Occupé",
+      "reserved": "Réservé",
+      "maintenance": "Maintenance"
+    },
+    "selectPrompt": "Sélectionnez un créneau disponible.",
+    "selectedSlot": "Créneau sélectionné : {start} – {end}",
+    "estimatedTotal": "Total estimé",
+    "reserveNow": "Réserver maintenant",
+    "reserveSuccess": "Créneau réservé",
+    "reserveSuccessDesc": "{club} — {start} le {date}",
+    "clubError": "Impossible de charger ce club.",
+    "error": "Impossible de charger les disponibilités.",
+    "retry": "Réessayer"
+  },
+  "clubDetail": {
+    "premiumBadge": "Premium Club",
+    "reviews": "{count} avis",
+    "openToday": "Ouvert aujourd'hui : {hours}",
+    "bookCta": "Réserver un Terrain",
+    "bookLogin": "Réserver (connexion)",
+    "tabs": {
+      "overview": "Aperçu",
+      "courts": "Terrains",
+      "photos": "Photos",
+      "avis": "Avis",
+      "reviews": "Avis"
+    },
+    "about": "À propos du club",
+    "amenities": "Équipements & Services",
+    "gallery": "Galerie",
+    "seeAll": "Voir tout",
+    "faq": "Questions Fréquentes",
+    "location": "Localisation",
+    "getDirections": "Obtenir l'itinéraire",
+    "openingHours": "Horaires d'ouverture",
+    "contact": "Contact",
+    "partnerTitle": "Partenaire Officiel PadelTunisie",
+    "partnerDesc": "Ce club est vérifié et partenaire officiel de la plateforme PadelTunisie.",
+    "amenity": {
+      "wifi": "Wi-Fi Gratuit",
+      "parking": "Parking Privé",
+      "cafeteria": "Cafétéria & Bar",
+      "lockers": "Vestiaires & Douches",
+      "shop": "Boutique Pro Shop",
+      "racket_rental": "Location de Raquettes"
+    },
+    "courtsPlaceholder": "{count} terrains — sélection des créneaux à l'étape suivante.",
+    "reviewsPlaceholder": "{count} avis — aucun commentaire pour le moment.",
+    "loadingReviews": "Chargement des avis…",
+    "reviewsError": "Impossible de charger les avis.",
+    "error": "Impossible de charger ce club.",
+    "retry": "Réessayer"
+  },
+  "rankingPage": {
+    "title": "Classement",
+    "subtitle": "Classement public par rating",
+    "empty": "Aucun joueur classé pour le moment"
+  },
+  "eventsPublicPage": {
+    "title": "Événements",
+    "subtitle": "Americano, Mexicano et tournois à venir",
+    "empty": "Aucun événement à venir"
+  },
+  "eventDetailPage": {
+    "participants": "Participants",
+    "participantsCount": "{count} inscrits",
+    "standings": "Classement",
+    "noStandings": "Pas encore de classement",
+    "bracket": "Tableau",
+    "registration": "Inscription",
+    "register": "S'inscrire",
+    "registerLogin": "S'inscrire (connexion)",
+    "withdraw": "Se désister",
+    "registered": "Inscription confirmée",
+    "waitlisted": "Liste d'attente",
+    "withdrawn": "Désistement enregistré",
+    "payOnSite": "Payer sur place",
+    "payCard": "Carte",
+    "team": "Équipe (tournoi)",
+    "partnerId": "ID partenaire",
+    "teamName": "Nom d'équipe (optionnel)",
+    "createTeam": "Créer l'équipe",
+    "teamCreated": "Équipe créée",
+    "partnerRequired": "ID partenaire requis"
+  },
+  "publicClubPage": {
+    "courts": "terrains",
+    "viewFull": "Voir la fiche complète"
+  },
+  "openMatchDetailPage": {
+    "title": "Match ouvert",
+    "join": "Rejoindre",
+    "joinLogin": "Rejoindre (connexion)",
+    "leave": "Quitter",
+    "pay": "Payer ma part",
+    "cancel": "Annuler (orga)",
+    "joined": "Vous avez rejoint le match",
+    "left": "Vous avez quitté le match",
+    "paid": "Paiement enregistré",
+    "cancelled": "Match annulé",
+    "resultTitle": "Saisir le résultat",
+    "resultHint": "Après le match — IDs des 4 joueurs",
+    "teamA1": "Équipe A — joueur 1 (id)",
+    "teamA2": "Équipe A — joueur 2 (id)",
+    "teamB1": "Équipe B — joueur 1 (id)",
+    "teamB2": "Équipe B — joueur 2 (id)",
+    "submitResult": "Envoyer le résultat",
+    "resultSent": "Résultat envoyé",
+    "resultPlayersRequired": "Renseignez les 4 joueurs"
+  },
+  "openMatchForm": {
+    "title": "Créer un match ouvert",
+    "subtitle": "Vous êtes le 1er joueur — partagez le lien",
+    "club": "Club",
+    "date": "Date",
+    "time": "Heure",
+    "type": "Type",
+    "friendly": "Amical",
+    "competitive": "Compétitif",
+    "levelMin": "Niveau min",
+    "levelMax": "Niveau max",
+    "price": "Prix / joueur (TND)",
+    "notes": "Notes",
+    "submit": "Créer",
+    "success": "Match créé",
+    "required": "Club, date et heure requis"
+  },
+  "resultsPage": {
+    "title": "Résultats",
+    "subtitle": "Confirmez ou contestez vos matchs",
+    "focus": "Match sélectionné",
+    "myMatches": "Mes matchs",
+    "empty": "Aucun match",
+    "awaiting": "En attente de votre réponse",
+    "confirm": "Confirmer",
+    "contest": "Contester",
+    "confirmed": "Résultat confirmé",
+    "contested": "Résultat contesté",
+    "ratingHistory": "Historique de rating",
+    "noRating": "Aucun changement de rating"
+  },
+  "subscriptionsPage": {
+    "title": "Abonnements",
+    "subtitle": "Plans joueur premium",
+    "plans": "Catalogue",
+    "mine": "Mes abonnements",
+    "subscribe": "S'abonner",
+    "cancel": "Arrêter le renouvellement",
+    "subscribed": "Abonnement créé",
+    "cancelled": "Renouvellement arrêté",
+    "noPlans": "Aucun plan disponible",
+    "noSubs": "Aucun abonnement"
+  },
+  "publicCoachPage": {
+    "book": "Réserver une séance"
+  },
+  "payPage": {
+    "title": "Paiement",
+    "subtitle": "Simulation de paiement carte (dev)",
+    "status": "Statut réservation",
+    "confirm": "Confirmer le paiement",
+    "fail": "Échouer le paiement",
+    "success": "Paiement réussi",
+    "failed": "Paiement échoué",
+    "receipt": "Reçu",
+    "goBookings": "Voir mes réservations",
+    "promoPlaceholder": "Code promo",
+    "promoApply": "Appliquer",
+    "promoApplied": "Promo appliquée",
+    "promoInvalid": "Code invalide",
+    "promoOk": "−{discount} TND → {final} TND",
+    "promoOkSimple": "Remise {discount} TND"
+  },
+  "walletPage": {
+    "title": "Portefeuille",
+    "subtitle": "Jetons pour réserver sans carte",
+    "balance": "Solde",
+    "tokens": "jetons",
+    "buyTitle": "Acheter des jetons",
+    "buy": "Acheter",
+    "buyHint": "Un paiement carte simulé sera demandé.",
+    "invalidAmount": "Montant invalide",
+    "purchaseOk": "Achat enregistré",
+    "history": "Historique",
+    "emptyHistory": "Aucun mouvement"
+  },
+  "coachesMarketplace": {
+    "title": "Réserver un coach",
+    "subtitle": "Trouvez un coach de padel près de chez vous et réservez une séance.",
+    "searchPlaceholder": "Rechercher un coach, une spécialité…",
+    "filters": {
+      "allCities": "Toutes les villes"
+    },
+    "results": "{count} coachs trouvés",
+    "card": {
+      "available": "Dispo maintenant",
+      "busy": "Indisponible",
+      "experience": "{years} ans d'exp.",
+      "perHour": "TND/h",
+      "book": "Réserver",
+      "bookLogin": "Réserver (connexion)"
+    },
+    "loading": "Chargement des coachs…",
+    "empty": "Aucun coach trouvé pour ces filtres.",
+    "error": "Impossible de charger les coachs.",
+    "retry": "Réessayer"
+  },
+  "coachDetailPage": {
+    "reviews": "{count} avis",
+    "experience": "{years} ans d'expérience",
+    "perHour": "TND / heure",
+    "bookCta": "Réserver une séance",
+    "bookLogin": "Réserver (connexion)",
+    "tabs": {
+      "overview": "Aperçu",
+      "specialties": "Spécialités",
+      "photos": "Photos",
+      "reviews": "Avis"
+    },
+    "about": "À propos du coach",
+    "specialtiesTitle": "Spécialités",
+    "specialtiesDesc": "Domaines d'expertise de ce coach.",
+    "gallery": "Galerie",
+    "reviewsPlaceholder": "{count} avis — les avis détaillés arriveront bientôt.",
+    "location": "Localisation",
+    "contact": "Contact",
+    "pricing": "Tarifs",
+    "pricingNote": "Les tarifs varient selon la durée et le créneau horaire.",
+    "partnerTitle": "Coach vérifié PadelTunisie",
+    "partnerDesc": "Ce coach est vérifié et partenaire officiel de la plateforme PadelTunisie.",
+    "error": "Impossible de charger ce coach.",
+    "retry": "Réessayer"
+  },
+  "coachSpaceNav": {
+    "menu": "Menu Principal",
+    "dashboard": "Tableau de bord",
+    "availability": "Disponibilités",
+    "requests": "Demandes",
+    "clients": "Mes clients",
+    "notifications": "Notifications",
+    "newMessages": "{count} nouveaux messages",
+    "logout": "Déconnexion",
+    "searchPlaceholder": "Rechercher un club, un joueur, un tournoi…"
+  },
+  "coachSpaceDashboard": {
+    "coachPrefix": "Coach",
+    "reviews": "{count} avis",
+    "sessionsCoached": "{count}+ Sessions coachées",
+    "newSession": "Nouvelle Session",
+    "editProfile": "Modifier Profil",
+    "newSessionToast": "Création de séance — bientôt disponible",
+    "editProfileToast": "Édition du profil — bientôt disponible",
+    "editProfileTitle": "Profil coach",
+    "cityPlaceholder": "Ville",
+    "pricePlaceholder": "Tarif / h (TND)",
+    "bioPlaceholder": "Bio",
+    "saveProfile": "Enregistrer",
+    "cancelEdit": "Annuler",
+    "profileSaved": "Profil mis à jour",
+    "profileError": "Échec de la mise à jour",
+    "kpis": {
+      "revenue": {
+        "label": "Revenus Mensuels",
+        "hint": "ce mois"
+      },
+      "sessions": {
+        "label": "Sessions Totales",
+        "hint": "ce mois"
+      },
+      "clients": {
+        "label": "Nouveaux Clients",
+        "hint": "ce mois"
+      },
+      "rating": {
+        "label": "Note Moyenne",
+        "hint": "ce mois"
+      }
+    },
+    "tabs": {
+      "overview": "Aperçu",
+      "bookings": "Réservations",
+      "clients": "Mes Clients",
+      "reports": "Rapports"
+    },
+    "filter": "Filtrer",
+    "search": "Chercher",
+    "upcomingTitle": "Prochaines Sessions",
+    "seeAll": "Voir tout",
+    "sessionsEmpty": "Aucune séance à venir.",
+    "duration": "Durée: {minutes} min",
+    "moreActions": "Plus d'actions",
+    "sessionTypes": {
+      "individual": "Cours individuel",
+      "group": "Entraînement groupe",
+      "video": "Analyse vidéo"
+    },
+    "sessionStatus": {
+      "confirmed": "Confirmé",
+      "pending": "En attente",
+      "completed": "Terminé"
+    },
+    "performanceTitle": "Performances de Coaching",
+    "performance": {
+      "individual": "Cours Individuels",
+      "group": "Groupe (4 pers.)",
+      "video": "Stages / Vidéo"
+    },
+    "availabilityTitle": "Disponibilité",
+    "live": "Live",
+    "slotStatus": {
+      "free": "Libre",
+      "occupied": "Occupé"
+    },
+    "manageSchedule": "Gérer mon emploi du temps",
+    "alertsTitle": "Alertes Activité",
+    "resourcesTitle": "Centre de Ressources",
+    "resourcesDesc": "Guides et outils pour développer votre activité coaching.",
+    "resourcesCta": "Bibliothèque Coach",
+    "error": "Impossible de charger le tableau de bord coach.",
+    "retry": "Réessayer"
+  },
+  "coachSpaceAvailability": {
+    "title": "Mon emploi du temps",
+    "subtitle": "Ouvrez ou fermez vos créneaux pour chaque jour.",
+    "hint": "Occupation du jour (dérivée des réservations).",
+    "status": {
+      "free": "Libre",
+      "occupied": "Occupé"
+    },
+    "markedFree": "{time} marqué libre",
+    "markedOccupied": "{time} marqué occupé",
+    "saveWeek": "Publier Lun–Ven 18h–20h",
+    "weekSaved": "Disponibilités enregistrées",
+    "weekError": "Échec de l'enregistrement",
+    "error": "Impossible de charger les disponibilités.",
+    "retry": "Réessayer"
+  },
+  "coachSpaceRequests": {
+    "title": "Demandes de séance",
+    "subtitle": "Acceptez ou refusez les demandes de vos clients.",
+    "empty": "Aucune demande pour le moment.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "complete": "Terminer",
+    "acceptedToast": "Demande de {name} acceptée",
+    "declinedToast": "Demande de {name} refusée",
+    "completedToast": "Séance de {name} terminée",
+    "actionError": "Action impossible",
+    "types": {
+      "individual": "Individuel",
+      "group": "Groupe",
+      "video": "Vidéo"
+    },
+    "status": {
+      "pending": "En attente",
+      "accepted": "Acceptée",
+      "declined": "Refusée"
+    },
+    "error": "Impossible de charger les demandes.",
+    "retry": "Réessayer"
+  },
+  "coachSpaceClients": {
+    "title": "Mes clients",
+    "subtitle": "{count} clients actifs",
+    "empty": "Aucun client pour le moment.",
+    "columns": {
+      "client": "Client",
+      "level": "Niveau",
+      "sessions": "Séances",
+      "last": "Dernière",
+      "spent": "Total dépensé",
+      "assess": "Niveau"
+    },
+    "assess": "Évaluer",
+    "confirmAssess": "Valider",
+    "assessOk": "Niveau enregistré",
+    "assessError": "Évaluation impossible",
+    "error": "Impossible de charger les clients.",
+    "retry": "Réessayer"
+  },
+  "clubDashNav": {
+    "menu": "Menu Principal",
+    "overview": "Tableau de bord",
+    "courts": "Terrains",
+    "calendar": "Calendrier",
+    "events": "Événements",
+    "players": "Joueurs",
+    "offers": "Offres",
+    "notifications": "Notifications",
+    "logout": "Déconnexion",
+    "searchPlaceholder": "Rechercher un club, un joueur, un tournoi…"
+  },
+  "clubDashboard": {
+    "title": "Gestion du Club",
+    "subtitle": "Gérez vos courts, suivez vos revenus et analysez vos performances",
+    "export": "Exporter Rapport",
+    "newBooking": "Nouvelle Réservation",
+    "exportToast": "Export du rapport — bientôt disponible",
+    "newBookingToast": "Nouvelle réservation — bientôt disponible",
+    "editClub": "Éditer le club",
+    "editClubTitle": "Fiche club",
+    "namePlaceholder": "Nom",
+    "cityPlaceholder": "Ville",
+    "phonePlaceholder": "Téléphone",
+    "descPlaceholder": "Description",
+    "saveClub": "Enregistrer",
+    "cancelEdit": "Annuler",
+    "clubSaved": "Club mis à jour",
+    "clubSaveError": "Échec de la mise à jour",
+    "kpis": {
+      "vsLastMonth": "vs mois dernier",
+      "revenue": { "label": "Revenu du mois" },
+      "reservations": { "label": "Réservations" },
+      "players": { "label": "Nouveaux joueurs" },
+      "occupancy": { "label": "Taux d'occupation" }
+    },
+    "tabs": {
+      "overview": "Vue d'ensemble",
+      "pricing": "Tarification",
+      "courts": "Gestion des Courts"
+    },
+    "revenueTitle": "Analyse des Revenus",
+    "goal": "Objectif: {amount} TND",
+    "series": {
+      "reservations": "Réservations (TND)",
+      "shop": "Boutique (TND)"
+    },
+    "reservationsTitle": "Réservations Récentes",
+    "seeAll": "Voir tout",
+    "columns": {
+      "id": "ID",
+      "player": "Joueur",
+      "court": "Court",
+      "time": "Horaire",
+      "status": "Status",
+      "price": "Prix",
+      "actions": "Actions"
+    },
+    "actions": {
+      "checkIn": "Check-in",
+      "noShow": "No-show",
+      "checkInOk": "Check-in enregistré",
+      "checkInError": "Échec du check-in",
+      "noShowOk": "No-show enregistré",
+      "noShowError": "Échec du no-show"
+    },
+    "status": {
+      "confirmed": "Confirmé",
+      "pending": "En attente",
+      "paid": "Payé",
+      "cancelled": "Annulé"
+    },
+    "agendaTitle": "Agenda du jour",
+    "live": "Live",
+    "weatherTitle": "Météo {city}",
+    "footerVersion": "PadelTunisie Manager v2.4.0",
+    "error": "Impossible de charger le dashboard club.",
+    "retry": "Réessayer"
+  },
+  "clubCourtsPage": {
+    "title": "Gestion des terrains",
+    "subtitle": "Statut et tarifs de vos courts.",
+    "bookingsToday": "{count} réservations aujourd'hui",
+    "namePlaceholder": "Nom du court",
+    "create": "Ajouter un court",
+    "createOk": "Court créé",
+    "createError": "Impossible de créer le court",
+    "empty": "Aucun court pour le moment.",
+    "activate": "Réactiver",
+    "maintenance": "Mettre en maintenance",
+    "applySchedule": "Horaires 8h–22h",
+    "more": "Tarifs / blocages",
+    "savePrices": "Enregistrer tarifs",
+    "priceOk": "Tarifs enregistrés",
+    "priceError": "Échec des tarifs",
+    "blockReason": "Raison maintenance",
+    "addBlock": "Bloquer 3h",
+    "removeBlock": "Retirer",
+    "blockOk": "Créneau bloqué",
+    "unblockOk": "Blocage retiré",
+    "blockError": "Échec du blocage",
+    "updateOk": "Court mis à jour",
+    "updateError": "Mise à jour impossible",
+    "scheduleOk": "Horaires enregistrés",
+    "scheduleError": "Échec des horaires",
+    "status": {
+      "available": "Disponible",
+      "occupied": "Occupé",
+      "maintenance": "Maintenance"
+    },
+    "error": "Impossible de charger les terrains.",
+    "retry": "Réessayer"
+  },
+  "clubCalendarPage": {
+    "title": "Calendrier du club",
+    "subtitle": "Vue des réservations et événements par jour.",
+    "agendaHint": "Événements et réservations du jour sélectionné.",
+    "emptyDay": "Aucune réservation ce jour.",
+    "error": "Impossible de charger le calendrier.",
+    "retry": "Réessayer"
+  },
+  "clubEventsPage": {
+    "title": "Événements du club",
+    "subtitle": "Tournois, Americano et sessions sociales.",
+    "empty": "Aucun événement.",
+    "players": "{count} joueurs",
+    "titlePlaceholder": "Titre de l'événement",
+    "create": "Créer (Americano)",
+    "createOk": "Événement créé",
+    "createError": "Création impossible",
+    "publish": "Publier",
+    "start": "Démarrer",
+    "cancel": "Annuler",
+    "publishOk": "Événement publié",
+    "startOk": "Événement démarré",
+    "cancelOk": "Événement annulé",
+    "desk": "Bureau",
+    "saveEdit": "Sauver titre",
+    "editOk": "Événement modifié",
+    "nextRound": "Tour suivant",
+    "roundOk": "Tour lancé",
+    "startGroups": "Poules",
+    "groupsOk": "Poules tirées",
+    "startBracket": "Tableau",
+    "bracketOk": "Tableau tiré",
+    "bracketNext": "Avancer tableau",
+    "bracketNextOk": "Tableau avancé",
+    "matchId": "ID match",
+    "score": "Score",
+    "scoreOk": "Score enregistré",
+    "actionError": "Action impossible",
+    "status": {
+      "upcoming": "À venir",
+      "live": "En direct",
+      "done": "Terminé"
+    },
+    "error": "Impossible de charger les événements.",
+    "retry": "Réessayer"
+  },
+  "clubPlayersPage": {
+    "title": "Joueurs du club",
+    "subtitle": "{count} joueurs suivis",
+    "bookings": "{count} réservations",
+    "lastVisit": "Dernière visite : {date}",
+    "empty": "Aucun joueur.",
+    "behaviour": "Comportement",
+    "behaviourLoading": "Chargement…",
+    "behaviourError": "Impossible de charger le comportement",
+    "behaviourSummary": "{bookings} rés. · {noShows} no-show · {cancellations} annulations · {status}",
+    "error": "Impossible de charger les joueurs.",
+    "retry": "Réessayer"
+  },
+  "clubOffersPage": {
+    "title": "Offres & tarification",
+    "subtitle": "Promotions actives sur vos créneaux.",
+    "validUntil": "Valable jusqu'au {date}",
+    "active": "Active",
+    "inactive": "Inactive",
+    "activate": "Activer",
+    "deactivate": "Désactiver",
+    "empty": "Aucune promotion.",
+    "codePlaceholder": "Code promo",
+    "percentPlaceholder": "%",
+    "create": "Créer",
+    "createOk": "Promotion créée",
+    "createError": "Création impossible",
+    "updateOk": "Promotion mise à jour",
+    "updateError": "Mise à jour impossible",
+    "error": "Impossible de charger les offres.",
+    "retry": "Réessayer"
+  },
+  "adminNav": {
+    "menu": "Administration",
+    "overview": "Tableau de bord",
+    "users": "Utilisateurs",
+    "clubs": "Clubs",
+    "coaches": "Coachs",
+    "finance": "Finances",
+    "payments": "Paiements",
+    "sponsors": "Sponsors",
+    "events": "Événements",
+    "ads": "Publicités",
+    "promotions": "Promotions",
+    "complaints": "Réclamations",
+    "federation": "Fédération",
+    "settings": "Paramètres",
+    "notifications": "Notifications",
+    "logout": "Déconnexion",
+    "secure": "Console sécurisée",
+    "searchPlaceholder": "Rechercher un club, un joueur, un tournoi…",
+    "more": "Plus",
+    "moreTitle": "Toutes les sections",
+    "close": "Fermer"
+  },
+  "adminDashboard": {
+    "title": "Panneau d'administration",
+    "subtitle": "Gérez les utilisateurs, les clubs et la santé de la plateforme PadelTunisie.",
+    "kpis": {
+      "vsLastMonth": "vs mois dernier",
+      "users": { "label": "Utilisateurs totaux" },
+      "clubs": { "label": "Clubs partenaires" },
+      "revenue": { "label": "Revenu mensuel" },
+      "sanctions": { "label": "Sanctions actives" }
+    },
+    "tabs": {
+      "overview": "Vue d'ensemble",
+      "users": "Utilisateurs",
+      "clubs": "Clubs",
+      "payments": "Paiements",
+      "sanctions": "Sanctions"
+    },
+    "growthTitle": "Croissance de la plateforme",
+    "series": {
+      "revenue": "Revenus (TND)",
+      "reservations": "Réservations"
+    },
+    "activityTitle": "Activités récentes",
+    "seeAllHistory": "Voir tout l'historique",
+    "usersTitle": "Dernières inscriptions",
+    "usersTitleAll": "Tous les utilisateurs",
+    "columns": {
+      "user": "Utilisateur",
+      "role": "Rôle",
+      "status": "Statut",
+      "reliability": "Fiabilité",
+      "actions": "Actions"
+    },
+    "userStatus": {
+      "active": "Actif",
+      "inactive": "Inactif",
+      "sanctioned": "Sanctionné"
+    },
+    "systemsOk": "Tous les systèmes opérationnels — Disponibilité {uptime}",
+    "footer": "© PadelTunisie Admin Console. Plateforme sécurisée.",
+    "error": "Impossible de charger le panneau admin.",
+    "retry": "Réessayer"
+  },
+  "adminUsersPage": {
+    "title": "Utilisateurs",
+    "subtitle": "{count} comptes sur la plateforme",
+    "error": "Impossible de charger les utilisateurs.",
+    "retry": "Réessayer"
+  },
+  "adminClubsPage": {
+    "title": "Gestion des clubs",
+    "subtitle": "Clubs partenaires et demandes d'adhésion.",
+    "courts": "{count} terrains",
+    "namePlaceholder": "Nom du club",
+    "cityPlaceholder": "Ville",
+    "create": "Créer",
+    "createOk": "Club créé",
+    "createError": "Création impossible",
+    "activate": "Activer",
+    "suspend": "Suspendre",
+    "updateOk": "Club mis à jour",
+    "updateError": "Mise à jour impossible",
+    "managers": "Managers",
+    "managerPlaceholder": "Email ou userId",
+    "addManager": "Ajouter",
+    "removeManager": "Retirer",
+    "managerOk": "Manager ajouté",
+    "managerRemoved": "Manager retiré",
+    "managerError": "Action manager impossible",
+    "status": {
+      "active": "Actif",
+      "pending": "En attente",
+      "suspended": "Suspendu"
+    },
+    "error": "Impossible de charger les clubs.",
+    "retry": "Réessayer"
+  },
+  "adminPaymentsPage": {
+    "title": "Paiements",
+    "subtitle": "Transactions et alertes de fraude.",
+    "status": {
+      "success": "Réussi",
+      "pending": "En attente",
+      "failed": "Échoué",
+      "flagged": "Signalé"
+    },
+    "error": "Impossible de charger les paiements.",
+    "retry": "Réessayer"
+  },
+  "adminFinancePage": {
+    "title": "Finances",
+    "subtitle": "Revenus plateforme et alertes financières.",
+    "alertsTitle": "Alertes à traiter",
+    "noAlerts": "Aucune alerte critique.",
+    "error": "Impossible de charger les finances.",
+    "retry": "Réessayer"
+  },
+  "adminComplaintsPage": {
+    "title": "Réclamations & sanctions",
+    "subtitle": "Tickets support et litiges joueurs.",
+    "accept": "Accepter",
+    "reject": "Rejeter",
+    "acceptOk": "Appel accepté",
+    "rejectOk": "Appel rejeté",
+    "actionError": "Action impossible",
+    "status": {
+      "open": "Ouvert",
+      "in_progress": "En cours",
+      "resolved": "Résolu"
+    },
+    "error": "Impossible de charger les réclamations.",
+    "retry": "Réessayer"
+  },
+  "adminSponsors": {
+    "title": "Gestion des Sponsors",
+    "subtitle": "Campagnes publicitaires et partenaires premium.",
+    "export": "Exporter Rapport",
+    "newCampaign": "Ajouter sponsor",
+    "exportToast": "Export — bientôt disponible",
+    "newCampaignToast": "Sponsor créé",
+    "createError": "Création impossible",
+    "sponsorPlaceholder": "Nom du sponsor",
+    "kpis": {
+      "vsLastMonth": "vs période précédente",
+      "impressions": { "label": "Impressions totales" },
+      "clicks": { "label": "Clics totaux" },
+      "ctr": { "label": "CTR moyen" },
+      "revenue": { "label": "Revenus sponsors" }
+    },
+    "performanceTitle": "Analyse de Performance",
+    "series": {
+      "impressions": "Impressions",
+      "clicks": "Clics"
+    },
+    "campaignsTitle": "Campagnes Actives",
+    "campaignStatus": {
+      "active": "Actif",
+      "paused": "En pause",
+      "draft": "Brouillon",
+      "ended": "Terminé"
+    },
+    "tipsTitle": "Conseils d'optimisation",
+    "premiumTitle": "Publicité Premium Court",
+    "premiumDesc": "Mur de fond — Court 1 & 2 · Prochaine dispo 01 Déc",
+    "reserveSpace": "Réserver l'espace",
+    "reserveSpaceToast": "Réservation d'espace — bientôt",
+    "partnersTitle": "Nos Partenaires",
+    "error": "Impossible de charger les sponsors.",
+    "retry": "Réessayer"
+  },
+  "adminCoachesPage": {
+    "title": "Coachs",
+    "subtitle": "{count} coachs référencés",
+    "emailPlaceholder": "Email",
+    "firstNamePlaceholder": "Prénom",
+    "lastNamePlaceholder": "Nom",
+    "create": "Créer coach",
+    "createOk": "Coach créé",
+    "createError": "Création impossible",
+    "allowAssess": "Autoriser évaluation",
+    "assessOk": "Permission accordée",
+    "assessError": "Échec permission",
+    "error": "Impossible de charger les coachs.",
+    "retry": "Réessayer"
+  },
+  "adminEventsPage": {
+    "title": "Événements plateforme",
+    "subtitle": "Tournois et sessions sociales suivis.",
+    "matchDesk": "Bureau matchs (corriger / annuler)",
+    "matchId": "ID match",
+    "correctResult": "Corriger score",
+    "voidMatch": "Void",
+    "resultOk": "Résultat corrigé",
+    "resultError": "Correction impossible",
+    "voidOk": "Match annulé",
+    "voidError": "Void impossible",
+    "status": {
+      "upcoming": "À venir",
+      "live": "En direct",
+      "done": "Terminé"
+    },
+    "error": "Impossible de charger les événements.",
+    "retry": "Réessayer"
+  },
+  "adminFederationPage": {
+    "title": "Import fédération",
+    "subtitle": "Licences FTT (xlsx) — dry-run recommandé.",
+    "filePlaceholder": "licences.xlsx",
+    "dryRun": "Dry-run (aperçu sans écriture)",
+    "dryRunBadge": "dry-run",
+    "import": "Lancer l'import",
+    "dryRunOk": "Aperçu import OK",
+    "importOk": "Import lancé",
+    "importError": "Import impossible",
+    "empty": "Aucun import.",
+    "error": "Impossible de charger les imports.",
+    "retry": "Réessayer"
+  },
+  "adminAdsPage": {
+    "title": "Publicités",
+    "subtitle": "Inventaire pub et emplacements premium.",
+    "hint": "Créez une bannière, puis affinez-la côté Sponsors.",
+    "goSponsors": "Ouvrir Sponsors",
+    "titlePlaceholder": "Titre de la pub",
+    "create": "Créer",
+    "createOk": "Publicité créée",
+    "createError": "Création impossible",
+    "empty": "Aucune publicité.",
+    "active": "Active",
+    "inactive": "Inactive",
+    "activate": "Activer",
+    "deactivate": "Désactiver",
+    "updateOk": "Publicité mise à jour",
+    "updateError": "Mise à jour impossible",
+    "error": "Impossible de charger les pubs.",
+    "retry": "Réessayer"
+  },
+  "adminPromotionsPage": {
+    "title": "Promotions",
+    "subtitle": "Offres globales visibles sur la marketplace.",
+    "codePlaceholder": "Code",
+    "create": "Créer",
+    "createOk": "Promotion créée",
+    "createError": "Création impossible",
+    "error": "Impossible de charger les promotions.",
+    "retry": "Réessayer"
+  },
+  "adminSettingsPage": {
+    "title": "Paramètres admin",
+    "subtitle": "Configuration plateforme et sécurité.",
+    "configure": "Réenregistrer",
+    "delete": "Supprimer",
+    "savedToast": "Paramètre enregistré",
+    "saveError": "Échec de l'enregistrement",
+    "deletedToast": "Paramètre supprimé",
+    "deleteError": "Suppression impossible",
+    "empty": "Aucun paramètre.",
+    "error": "Impossible de charger les paramètres.",
+    "retry": "Réessayer",
+    "maintenance": {
+      "title": "Mode maintenance",
+      "desc": "Couper temporairement l'accès joueur."
+    },
+    "notifications": {
+      "title": "Notifications système",
+      "desc": "Emails et alertes opérationnelles."
+    },
+    "security": {
+      "title": "Sécurité",
+      "desc": "2FA admin et journaux d'audit."
+    }
+  },
+  "coachBookingCalendar": {
+    "title": "Disponibilités du coach",
+    "subtitle": "Choisissez une date et un créneau pour votre séance.",
+    "coachInfo": "Fiche coach",
+    "sessionDuration": "Durée de séance",
+    "sessionMinutes": "{minutes} min",
+    "slotsTitle": "Créneaux disponibles",
+    "specialOfferTitle": "Offre Spéciale",
+    "specialOfferDesc": "−10% sur les créneaux du matin. Offre limitée aux membres PadelTunisie.",
+    "cancelPolicyTitle": "Politique d'Annulation",
+    "cancelPolicyDesc": "Annulation gratuite jusqu'à 24h avant le début de la séance. Passé ce délai, des frais partiels peuvent s'appliquer.",
+    "periods": {
+      "morning": "Matinée",
+      "afternoon": "Après-midi",
+      "evening": "Soirée"
+    },
+    "currency": "TND",
+    "status": {
+      "available": "Dispo",
+      "occupied": "Occupé",
+      "reserved": "Réservé",
+      "maintenance": "Indispo"
+    },
+    "legend": {
+      "available": "Disponible",
+      "occupied": "Occupé",
+      "reserved": "Réservé",
+      "maintenance": "Indisponible"
+    },
+    "reserveSuccess": "Séance réservée",
+    "reserveSuccessDesc": "{coach} — {start} le {date}",
+    "coachError": "Impossible de charger ce coach.",
+    "error": "Impossible de charger les disponibilités.",
+    "retry": "Réessayer"
+  },
+  "clubsMarketplace": {
+    "title": "Réserver un terrain",
+    "subtitle": "Parcourez les clubs et terrains disponibles près de chez vous.",
+    "searchPlaceholder": "Rechercher un club, un quartier…",
+    "filters": {
+      "allCities": "Toutes les villes"
+    },
+    "results": "{count} clubs trouvés",
+    "card": {
+      "available": "Dispo maintenant",
+      "busy": "Complet",
+      "courts": "{count} terrains",
+      "from": "À partir de",
+      "currency": "TND",
+      "book": "Réserver",
+      "bookLogin": "Réserver (connexion)"
+    },
+    "loading": "Chargement des clubs…",
+    "empty": "Aucun club trouvé pour ces filtres.",
+    "error": "Impossible de charger les clubs.",
+    "retry": "Réessayer"
+  },
+  "openMatchesPage": {
+    "title": "MATCHS OUVERTS",
+    "liveBadge": "LIVE",
+    "subtitle": "Trouvez des partenaires et rejoignez des parties à proximité.",
+    "createMatch": "Créer un match",
+    "createMatchLogin": "Créer (connexion)",
+    "filters": "Filtres",
+    "statsAvailable": "MATCHS DISPONIBLES",
+    "statsParties": "{count} Parties",
+    "filterLevel": "FILTRER PAR NIVEAU",
+    "filterLevelAll": "Tous les niveaux",
+    "filterLocation": "LOCALISATION",
+    "filterLocationPlaceholder": "Tunis, Sousse, Sfax...",
+    "sectionTitle": "PARTIES À TUNIS",
+    "perPlayer": "PAR JOUEUR",
+    "currency": "TND",
+    "allLevels": "Tous niveaux",
+    "levelPlus": "{level}+",
+    "levelRange": "{min} - {max}",
+    "playerSlotFree": "LIBRE",
+    "paymentInApp": "PAIEMENT IN-APP",
+    "paymentOnSite": "PAYER SUR PLACE",
+    "almostFull": "BIENTÔT COMPLET",
+    "joinMatch": "REJOINDRE",
+    "joinMatchLogin": "REJOINDRE (connexion)",
+    "loadMore": "Voir plus de matchs",
+    "loading": "Chargement des matchs…",
+    "empty": "Aucun match ouvert disponible pour le moment.",
+    "error": "Impossible de charger les matchs ouverts."
+  }
+}

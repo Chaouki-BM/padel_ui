@@ -1,0 +1,1224 @@
+{
+  "common": {
+    "loading": "جاري التحميل…",
+    "error": "حدث خطأ",
+    "errorRetry": "إعادة المحاولة",
+    "notFound": "الصفحة غير موجودة",
+    "notFoundDescription": "الصفحة التي تبحث عنها غير موجودة.",
+    "backHome": "العودة إلى الرئيسية"
+  },
+  "header": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "mySpace": "مساحتي",
+    "logout": "تسجيل الخروج"
+  },
+  "authForms": {
+    "loginTitle": "مرحباً",
+    "loginSubtitle": "سجّل الدخول لحجز ملعب",
+    "registerTitle": "إنشاء حساب",
+    "registerSubtitle": "أنشئ حساباً لحجز أفضل الملاعب",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "your@email.com",
+    "password": "كلمة المرور",
+    "passwordHint": "8 أحرف على الأقل، حرف ورقم",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "name": "الاسم",
+    "namePlaceholder": "اسمك",
+    "firstName": "الاسم",
+    "lastName": "اللقب",
+    "city": "المدينة",
+    "cityPlaceholder": "تونس",
+    "birthDate": "تاريخ الميلاد",
+    "phone": "الهاتف",
+    "level": "المستوى",
+    "levelOptional": "المستوى (اختياري)",
+    "loginSubmit": "تسجيل الدخول",
+    "registerSubmit": "إنشاء حسابي",
+    "noAccount": "ليس لديك حساب؟",
+    "createAccount": "إنشاء حساب",
+    "hasAccount": "لديك حساب بالفعل؟",
+    "loginLink": "تسجيل الدخول",
+    "submitting": "يرجى الانتظار…",
+    "errorGeneric": "حدث خطأ",
+    "forgotTitle": "نسيت كلمة المرور",
+    "forgotSubtitle": "أدخل بريدك لتلقي رابط إعادة التعيين",
+    "forgotSubmit": "إرسال الرابط",
+    "forgotSuccess": "إذا كان الحساب موجوداً، تم إرسال بريد.",
+    "resetTitle": "كلمة مرور جديدة",
+    "resetSubtitle": "اختر كلمة مرور جديدة",
+    "resetSubmit": "حفظ",
+    "resetSuccess": "تم تحديث كلمة المرور. سجّل الدخول.",
+    "resetMissingToken": "رابط غير صالح أو منتهٍ.",
+    "verifyTitle": "تأكيد البريد",
+    "verifySubtitle": "تأكيد عنوان بريدك الإلكتروني",
+    "verifySuccess": "تم التحقق. يمكنك تسجيل الدخول.",
+    "verifyMissingToken": "رابط التحقق مفقود.",
+    "verifySubmit": "تحقق",
+    "backToLogin": "العودة لتسجيل الدخول"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "clubs": "النوادي",
+    "bookings": "الحجوزات",
+    "reserveCoach": "حجز مدرب",
+    "matches": "المباريات",
+    "profile": "الملف الشخصي",
+    "events": "الفعاليات",
+    "tournaments": "البطولات",
+    "coaches": "المدربين",
+    "wallet": "المحفظة",
+    "notifications": "الإشعارات",
+    "ranking": "التصنيف",
+    "settings": "الإعدادات",
+    "searchShort": "بحث…",
+    "searchPlaceholder": "ابحث عن نادٍ أو لاعب أو بطولة…",
+    "menuPrincipal": "القائمة الرئيسية",
+    "login": "تسجيل الدخول"
+  },
+  "playerHome": {
+    "brand": "PADELTUNISIE PRO",
+    "heroTitle": "هل أنت مستعد",
+    "heroTitleLine2": "لمباراتك القادمة؟",
+    "heroSubtitle": "احجز أفضل الملاعب في تونس وانضم إلى مجتمع لاعبي البادل.",
+    "ctaBook": "احجز ملعباً",
+    "ctaJoin": "انضم لمباراة",
+    "statMatches": "المباريات",
+    "statLevel": "المستوى",
+    "statStreak": "السلسلة",
+    "statCredits": "الرصيد",
+    "upcomingBookings": "حجوزاتي القادمة",
+    "seeAll": "عرض الكل",
+    "joinPlaces": "انضمام ({count} أماكن)"
+  },
+  "publicLanding": {
+    "brand": "PADELTUNISIE",
+    "heroTitle": "ملاعب ومدربو البادل في تونس",
+    "heroSubtitle": "تصفح النوادي والمدربين والمباريات المفتوحة. سجّل الدخول للحجز أو الانضمام.",
+    "searchPlaceholder": "ابحث عن نادٍ أو مدرب أو مباراة…",
+    "allCities": "كل المدن",
+    "stadiumsTitle": "الملاعب والنوادي",
+    "stadiumsSubtitle": "اكتشف الملاعب القريبة منك",
+    "stadiumsResults": "{count} نوادي",
+    "clubsError": "تعذر تحميل النوادي.",
+    "clubsEmpty": "لا نوادي لهذه البحث.",
+    "coachesTitle": "المدربون",
+    "coachesSubtitle": "ابحث عن مدرب للتطور",
+    "coachesResults": "{count} مدربين",
+    "coachesError": "تعذر تحميل المدربين.",
+    "coachesEmpty": "لا مدربين لهذه البحث.",
+    "matchesTitle": "مباريات مفتوحة",
+    "matchesSubtitle": "انضم إلى مباراة قريبة منك",
+    "matchesResults": "{count} مباريات",
+    "matchesError": "تعذر تحميل المباريات المفتوحة.",
+    "matchesEmpty": "لا مباريات مفتوحة لهذه البحث.",
+    "retry": "إعادة المحاولة"
+  },
+  "roles": {
+    "player": "لاعب",
+    "club": "نادي",
+    "coach": "مدرب",
+    "admin": "مسؤول",
+    "sponsor": "راعي"
+  },
+  "devSwitcher": {
+    "label": "الدور الحالي",
+    "title": "تبديل الدور (تطوير)"
+  },
+  "pages": {
+    "public": {
+      "landing": "الرئيسية",
+      "clubs": "النوادي في {city}",
+      "clubDetail": "بطاقة النادي",
+      "coachDetail": "بطاقة المدرب",
+      "events": "الفعاليات",
+      "eventDetail": "تفاصيل الفعالية",
+      "tournaments": "البطولات"
+    },
+    "auth": {
+      "login": "تسجيل الدخول",
+      "register": "التسجيل",
+      "verifyOtp": "التحقق من OTP",
+      "verifyEmail": "تأكيد البريد",
+      "forgotPassword": "نسيت كلمة المرور",
+      "resetPassword": "إعادة تعيين كلمة المرور"
+    },
+    "player": {
+      "home": "لوحة تحكم اللاعب",
+      "clubs": "النوادي",
+      "book": "حجز ملعب",
+      "bookings": "حجوزاتي",
+      "openMatches": "مباريات مفتوحة",
+      "newOpenMatch": "مباراة مفتوحة جديدة",
+      "openMatchDetail": "تفاصيل المباراة المفتوحة",
+      "results": "نتيجة المباراة",
+      "ranking": "التصنيف",
+      "events": "فعالياتي",
+      "eventDetail": "تفاصيل الفعالية",
+      "tournamentDetail": "تفاصيل البطولة",
+      "coaches": "المدربين",
+      "wallet": "المحفظة",
+      "notifications": "الإشعارات",
+      "sanctions": "العقوبات",
+      "profile": "ملفي الشخصي",
+      "settings": "الإعدادات"
+    },
+    "club": {
+      "overview": "نظرة عامة",
+      "courts": "الملاعب",
+      "calendar": "التقويم",
+      "events": "الفعاليات",
+      "players": "اللاعبون",
+      "offers": "العروض"
+    },
+    "coach": {
+      "profile": "لوحة التحكم",
+      "availability": "التوفر",
+      "requests": "الطلبات",
+      "clients": "عملائي"
+    },
+    "admin": {
+      "overview": "نظرة عامة",
+      "finance": "المالية",
+      "users": "المستخدمون",
+      "clubs": "النوادي",
+      "coaches": "المدربين",
+      "events": "الفعاليات",
+      "payments": "المدفوعات",
+      "sponsors": "الرعاة",
+      "ads": "الإعلانات",
+      "promotions": "العروض الترويجية",
+      "complaints": "الشكاوى",
+      "settings": "الإعدادات"
+    },
+    "sponsor": {
+      "campaigns": "الحملات",
+      "assets": "الموارد"
+    }
+  },
+  "devLanding": {
+    "title": "فهرس المسارات (تطوير)",
+    "public": "الصفحات العامة",
+    "auth": "المصادقة",
+    "player": "مساحة اللاعب",
+    "club": "لوحة تحكم النادي",
+    "coach": "مساحة المدرب",
+    "admin": "الإدارة",
+    "sponsor": "مساحة الراعي"
+  },
+  "notificationsPage": {
+    "title": "الإشعارات",
+    "unread": "{count} غير مقروءة",
+    "markAll": "تعليم الكل كمقروء",
+    "markRead": "تعليم كمقروء",
+    "empty": "لا توجد إشعارات",
+    "untitled": "إشعار",
+    "markedAll": "تم تعليم كل الإشعارات كمقروءة"
+  },
+  "sanctionsPage": {
+    "title": "العقوبات والسلوك",
+    "status": "الحالة: {status}",
+    "sanctions": "العقوبات",
+    "infractions": "المخالفات",
+    "appeals": "الاعتراضات",
+    "emptySanctions": "لا توجد عقوبات",
+    "emptyInfractions": "لا توجد مخالفات",
+    "emptyAppeals": "لا توجد اعتراضات",
+    "sanctionIdOptional": "معرّف العقوبة (اختياري)",
+    "appealMessage": "رسالة الاعتراض",
+    "submitAppeal": "إرسال الاعتراض",
+    "appealSent": "تم إرسال الاعتراض"
+  },
+  "profilePage": {
+    "title": "ملفي الشخصي",
+    "subtitle": "إدارة معلوماتك الشخصية وإعداداتك.",
+    "memberSince": "عضو منذ {year}",
+    "editPhoto": "تغيير الصورة",
+    "personalInfo": "المعلومات الشخصية",
+    "fields": {
+      "displayName": "الاسم المعروض",
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني",
+      "city": "المدينة"
+    },
+    "saveProfile": "حفظ",
+    "settingsTitle": "الإعدادات",
+    "settings": {
+      "notifications": "الإشعارات",
+      "notificationsDesc": "تلقي تنبيهات المباريات والحجوزات",
+      "darkMode": "الوضع الداكن",
+      "darkModeDesc": "تفعيل السمة الداكنة للتطبيق",
+      "language": "اللغة",
+      "languageValue": "العربية",
+      "password": "كلمة المرور",
+      "passwordAction": "تغيير كلمة المرور"
+    }
+  },
+  "bookingCalendar": {
+    "title": "تقويم التوافر",
+    "subtitle": "احجز في الوقت الفعلي بأفضل الأسعار بالدينار التونسي.",
+    "advancedFilters": "فلاتر متقدمة",
+    "openMatch": "مباراة مفتوحة",
+    "premiumBadge": "نادي مميز",
+    "clubInfo": "معلومات النادي",
+    "courtType": "نوع الملعب",
+    "duration": "المدة",
+    "paymentMode": "الدفع",
+    "payOnSite": "في الموقع",
+    "payCard": "بطاقة (محاكاة)",
+    "payTokens": "عملات",
+    "specialOfferTitle": "عرض خاص",
+    "specialOfferDesc": "خصم 15٪ على فترات الصباح قبل الساعة 10:00. عرض محدود لأعضاء PadelTunisie.",
+    "cancelPolicyTitle": "سياسة الإلغاء",
+    "cancelPolicyDesc": "إلغاء مجاني حتى 24 ساعة قبل الموعد. بعد ذلك قد تُطبق رسوم جزئية.",
+    "periods": {
+      "morning": "صباحاً",
+      "afternoon": "بعد الظهر",
+      "evening": "مساءً"
+    },
+    "currency": "د.ت",
+    "status": {
+      "available": "متاح",
+      "occupied": "مشغول",
+      "reserved": "محجوز",
+      "maintenance": "صيانة"
+    },
+    "legend": {
+      "available": "متاح",
+      "occupied": "مشغول",
+      "reserved": "محجوز",
+      "maintenance": "صيانة"
+    },
+    "selectPrompt": "اختر فترة متاحة.",
+    "selectedSlot": "الفترة المختارة: {start} – {end}",
+    "estimatedTotal": "الإجمالي التقديري",
+    "reserveNow": "احجز الآن",
+    "reserveSuccess": "تم حجز الفترة",
+    "reserveSuccessDesc": "{club} — {start} في {date}",
+    "clubError": "تعذر تحميل هذا النادي.",
+    "error": "تعذر تحميل التوافر.",
+    "retry": "إعادة المحاولة"
+  },
+  "clubDetail": {
+    "premiumBadge": "نادي مميز",
+    "reviews": "{count} تقييم",
+    "openToday": "مفتوح اليوم : {hours}",
+    "bookCta": "احجز ملعباً",
+    "bookLogin": "احجز (تسجيل الدخول)",
+    "tabs": {
+      "overview": "نظرة عامة",
+      "courts": "الملاعب",
+      "photos": "الصور",
+      "avis": "التقييمات",
+      "reviews": "التقييمات"
+    },
+    "about": "عن النادي",
+    "amenities": "المرافق والخدمات",
+    "gallery": "المعرض",
+    "seeAll": "عرض الكل",
+    "faq": "الأسئلة الشائعة",
+    "location": "الموقع",
+    "getDirections": "احصل على الاتجاهات",
+    "openingHours": "ساعات العمل",
+    "contact": "اتصل بنا",
+    "partnerTitle": "شريك رسمي PadelTunisie",
+    "partnerDesc": "هذا النادي موثّق وشريك رسمي لمنصة PadelTunisie.",
+    "amenity": {
+      "wifi": "واي فاي مجاني",
+      "parking": "موقف خاص",
+      "cafeteria": "مقهى وبار",
+      "lockers": "غرف تبديل ودش",
+      "shop": "متجر محترف",
+      "racket_rental": "تأجير مضارب"
+    },
+    "courtsPlaceholder": "{count} ملاعب — اختيار المواعيد في الخطوة التالية.",
+    "reviewsPlaceholder": "{count} تقييم — لا تعليقات حالياً.",
+    "loadingReviews": "جاري تحميل التقييمات…",
+    "reviewsError": "تعذر تحميل التقييمات.",
+    "error": "تعذر تحميل هذا النادي.",
+    "retry": "إعادة المحاولة"
+  },
+  "rankingPage": {
+    "title": "التصنيف",
+    "subtitle": "التصنيف العام حسب التقييم",
+    "empty": "لا يوجد لاعبون مصنفون حالياً"
+  },
+  "eventsPublicPage": {
+    "title": "الفعاليات",
+    "subtitle": "أمريكانو ومكسيكانو وبطولات قادمة",
+    "empty": "لا توجد فعاليات قادمة"
+  },
+  "eventDetailPage": {
+    "participants": "المشاركون",
+    "participantsCount": "{count} مسجلون",
+    "standings": "الترتيب",
+    "noStandings": "لا ترتيب بعد",
+    "bracket": "جدول المباريات",
+    "registration": "التسجيل",
+    "register": "سجّل",
+    "registerLogin": "سجّل (تسجيل الدخول)",
+    "withdraw": "انسحب",
+    "registered": "تم التسجيل",
+    "waitlisted": "قائمة الانتظار",
+    "withdrawn": "تم الانسحاب",
+    "payOnSite": "دفع في الموقع",
+    "payCard": "بطاقة",
+    "team": "فريق (بطولة)",
+    "partnerId": "معرّف الشريك",
+    "teamName": "اسم الفريق",
+    "createTeam": "إنشاء فريق",
+    "teamCreated": "تم إنشاء الفريق",
+    "partnerRequired": "معرّف الشريك مطلوب"
+  },
+  "publicClubPage": {
+    "courts": "ملاعب",
+    "viewFull": "عرض الصفحة الكاملة"
+  },
+  "openMatchDetailPage": {
+    "title": "مباراة مفتوحة",
+    "join": "انضمام",
+    "joinLogin": "انضمام (تسجيل الدخول)",
+    "leave": "مغادرة",
+    "pay": "ادفع حصتي",
+    "cancel": "إلغاء (منظم)",
+    "joined": "انضممت للمباراة",
+    "left": "غادرت المباراة",
+    "paid": "تم الدفع",
+    "cancelled": "أُلغيت المباراة",
+    "resultTitle": "إدخال النتيجة",
+    "resultHint": "بعد المباراة — معرّفات اللاعبين الأربعة",
+    "teamA1": "فريق أ — لاعب 1",
+    "teamA2": "فريق أ — لاعب 2",
+    "teamB1": "فريق ب — لاعب 1",
+    "teamB2": "فريق ب — لاعب 2",
+    "submitResult": "إرسال النتيجة",
+    "resultSent": "تم الإرسال",
+    "resultPlayersRequired": "أدخل اللاعبين الأربعة"
+  },
+  "openMatchForm": {
+    "title": "إنشاء مباراة مفتوحة",
+    "subtitle": "أنت اللاعب الأول",
+    "club": "النادي",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "type": "النوع",
+    "friendly": "ودية",
+    "competitive": "تنافسية",
+    "levelMin": "أدنى مستوى",
+    "levelMax": "أقصى مستوى",
+    "price": "السعر / لاعب",
+    "notes": "ملاحظات",
+    "submit": "إنشاء",
+    "success": "تم الإنشاء",
+    "required": "النادي والتاريخ والوقت مطلوبة"
+  },
+  "resultsPage": {
+    "title": "النتائج",
+    "subtitle": "أكد أو اعترض على نتائجك",
+    "focus": "المباراة المحددة",
+    "myMatches": "مبارياتي",
+    "empty": "لا مباريات",
+    "awaiting": "بانتظار ردك",
+    "confirm": "تأكيد",
+    "contest": "اعتراض",
+    "confirmed": "تم التأكيد",
+    "contested": "تم الاعتراض",
+    "ratingHistory": "سجل التقييم",
+    "noRating": "لا تغييرات"
+  },
+  "subscriptionsPage": {
+    "title": "الاشتراكات",
+    "subtitle": "خطط اللاعب المميزة",
+    "plans": "الكتالوج",
+    "mine": "اشتراكاتي",
+    "subscribe": "اشترك",
+    "cancel": "إيقاف التجديد",
+    "subscribed": "تم الاشتراك",
+    "cancelled": "تم الإيقاف",
+    "noPlans": "لا خطط",
+    "noSubs": "لا اشتراكات"
+  },
+  "publicCoachPage": {
+    "book": "حجز حصة"
+  },
+  "payPage": {
+    "title": "الدفع",
+    "subtitle": "محاكاة دفع بالبطاقة (تطوير)",
+    "status": "حالة الحجز",
+    "confirm": "تأكيد الدفع",
+    "fail": "فشل الدفع",
+    "success": "تم الدفع بنجاح",
+    "failed": "فشل الدفع",
+    "receipt": "الإيصال",
+    "goBookings": "عرض حجوزاتي",
+    "promoPlaceholder": "رمز العرض",
+    "promoApply": "تطبيق",
+    "promoApplied": "تم تطبيق العرض",
+    "promoInvalid": "رمز غير صالح",
+    "promoOk": "−{discount} د.ت → {final} د.ت",
+    "promoOkSimple": "خصم {discount} د.ت"
+  },
+  "walletPage": {
+    "title": "المحفظة",
+    "subtitle": "عملات للحجز دون بطاقة",
+    "balance": "الرصيد",
+    "tokens": "عملات",
+    "buyTitle": "شراء عملات",
+    "buy": "شراء",
+    "buyHint": "سيُطلب دفع بطاقة محاكى.",
+    "invalidAmount": "مبلغ غير صالح",
+    "purchaseOk": "تم التسجيل",
+    "history": "السجل",
+    "emptyHistory": "لا حركات"
+  },
+  "coachesMarketplace": {
+    "title": "حجز مدرب",
+    "subtitle": "اعثر على مدرب بادل بالقرب منك واحجز حصة.",
+    "searchPlaceholder": "ابحث عن مدرب أو تخصص…",
+    "filters": {
+      "allCities": "كل المدن"
+    },
+    "results": "{count} مدربين",
+    "card": {
+      "available": "متاح الآن",
+      "busy": "غير متاح",
+      "experience": "{years} سنوات خبرة",
+      "perHour": "د.ت/س",
+      "book": "احجز",
+      "bookLogin": "احجز (تسجيل الدخول)"
+    },
+    "loading": "جاري تحميل المدربين…",
+    "empty": "لا يوجد مدربون لهذه الفلاتر.",
+    "error": "تعذر تحميل المدربين.",
+    "retry": "إعادة المحاولة"
+  },
+  "coachDetailPage": {
+    "reviews": "{count} تقييم",
+    "experience": "{years} سنوات خبرة",
+    "perHour": "د.ت / ساعة",
+    "bookCta": "احجز حصة",
+    "bookLogin": "احجز (تسجيل الدخول)",
+    "tabs": {
+      "overview": "نظرة عامة",
+      "specialties": "التخصصات",
+      "photos": "الصور",
+      "reviews": "التقييمات"
+    },
+    "about": "عن المدرب",
+    "specialtiesTitle": "التخصصات",
+    "specialtiesDesc": "مجالات خبرة هذا المدرب.",
+    "gallery": "المعرض",
+    "reviewsPlaceholder": "{count} تقييم — التفاصيل قريباً.",
+    "location": "الموقع",
+    "contact": "اتصل بنا",
+    "pricing": "الأسعار",
+    "pricingNote": "تختلف الأسعار حسب المدة والفترة الزمنية.",
+    "partnerTitle": "مدرب موثّق PadelTunisie",
+    "partnerDesc": "هذا المدرب موثّق وشريك رسمي لمنصة PadelTunisie.",
+    "error": "تعذر تحميل هذا المدرب.",
+    "retry": "إعادة المحاولة"
+  },
+  "coachSpaceNav": {
+    "menu": "القائمة الرئيسية",
+    "dashboard": "لوحة التحكم",
+    "availability": "التوفر",
+    "requests": "الطلبات",
+    "clients": "عملائي",
+    "notifications": "الإشعارات",
+    "newMessages": "{count} رسائل جديدة",
+    "logout": "تسجيل الخروج",
+    "searchPlaceholder": "ابحث عن نادٍ أو لاعب أو بطولة…"
+  },
+  "coachSpaceDashboard": {
+    "coachPrefix": "المدرب",
+    "reviews": "{count} تقييم",
+    "sessionsCoached": "{count}+ حصة تدريبية",
+    "newSession": "حصة جديدة",
+    "editProfile": "تعديل الملف",
+    "newSessionToast": "إنشاء حصة — قريباً",
+    "editProfileToast": "تعديل الملف — قريباً",
+    "editProfileTitle": "ملف المدرب",
+    "cityPlaceholder": "المدينة",
+    "pricePlaceholder": "السعر / ساعة",
+    "bioPlaceholder": "نبذة",
+    "saveProfile": "حفظ",
+    "cancelEdit": "إلغاء",
+    "profileSaved": "تم تحديث الملف",
+    "profileError": "فشل التحديث",
+    "kpis": {
+      "revenue": {
+        "label": "الإيرادات الشهرية",
+        "hint": "هذا الشهر"
+      },
+      "sessions": {
+        "label": "إجمالي الحصص",
+        "hint": "هذا الشهر"
+      },
+      "clients": {
+        "label": "عملاء جدد",
+        "hint": "هذا الشهر"
+      },
+      "rating": {
+        "label": "متوسط التقييم",
+        "hint": "هذا الشهر"
+      }
+    },
+    "tabs": {
+      "overview": "نظرة عامة",
+      "bookings": "الحجوزات",
+      "clients": "عملائي",
+      "reports": "التقارير"
+    },
+    "filter": "تصفية",
+    "search": "بحث",
+    "upcomingTitle": "الحصص القادمة",
+    "seeAll": "عرض الكل",
+    "sessionsEmpty": "لا توجد حصص قادمة.",
+    "duration": "المدة: {minutes} د",
+    "moreActions": "المزيد",
+    "sessionTypes": {
+      "individual": "فردي",
+      "group": "جماعي",
+      "video": "تحليل فيديو"
+    },
+    "sessionStatus": {
+      "confirmed": "مؤكد",
+      "pending": "قيد الانتظار",
+      "completed": "مكتمل"
+    },
+    "performanceTitle": "أداء التدريب",
+    "performance": {
+      "individual": "حصص فردية",
+      "group": "مجموعة (4 أشخاص)",
+      "video": "دورات / فيديو"
+    },
+    "availabilityTitle": "التوفر",
+    "live": "مباشر",
+    "slotStatus": {
+      "free": "متاح",
+      "occupied": "مشغول"
+    },
+    "manageSchedule": "إدارة جدولي",
+    "alertsTitle": "تنبيهات النشاط",
+    "resourcesTitle": "مركز الموارد",
+    "resourcesDesc": "أدلة وأدوات لتطوير نشاطك كمدرب.",
+    "resourcesCta": "مكتبة المدرب",
+    "error": "تعذر تحميل لوحة المدرب.",
+    "retry": "إعادة المحاولة"
+  },
+  "coachSpaceAvailability": {
+    "title": "جدولي الزمني",
+    "subtitle": "افتح أو أغلق مواعيدك لكل يوم.",
+    "hint": "شغل اليوم (من الحجوزات).",
+    "status": {
+      "free": "متاح",
+      "occupied": "مشغول"
+    },
+    "markedFree": "{time} أصبح متاحاً",
+    "markedOccupied": "{time} أصبح مشغولاً",
+    "saveWeek": "نشر الإثنين–الجمعة 18–20",
+    "weekSaved": "تم حفظ التوفر",
+    "weekError": "فشل الحفظ",
+    "error": "تعذر تحميل التوفر.",
+    "retry": "إعادة المحاولة"
+  },
+  "coachSpaceRequests": {
+    "title": "طلبات الحصص",
+    "subtitle": "اقبل أو ارفض طلبات عملائك.",
+    "empty": "لا توجد طلبات حالياً.",
+    "accept": "قبول",
+    "decline": "رفض",
+    "complete": "إنهاء",
+    "acceptedToast": "تم قبول طلب {name}",
+    "declinedToast": "تم رفض طلب {name}",
+    "completedToast": "انتهت حصة {name}",
+    "actionError": "تعذر تنفيذ الإجراء",
+    "types": {
+      "individual": "فردي",
+      "group": "جماعي",
+      "video": "فيديو"
+    },
+    "status": {
+      "pending": "قيد الانتظار",
+      "accepted": "مقبول",
+      "declined": "مرفوض"
+    },
+    "error": "تعذر تحميل الطلبات.",
+    "retry": "إعادة المحاولة"
+  },
+  "coachSpaceClients": {
+    "title": "عملائي",
+    "subtitle": "{count} عملاء نشطون",
+    "empty": "لا يوجد عملاء حالياً.",
+    "columns": {
+      "client": "العميل",
+      "level": "المستوى",
+      "sessions": "الحصص",
+      "last": "آخر حصة",
+      "spent": "إجمالي الإنفاق",
+      "assess": "تقييم"
+    },
+    "assess": "تقييم",
+    "confirmAssess": "تأكيد",
+    "assessOk": "تم تسجيل المستوى",
+    "assessError": "تعذر التقييم",
+    "error": "تعذر تحميل العملاء.",
+    "retry": "إعادة المحاولة"
+  },
+  "clubDashNav": {
+    "menu": "القائمة الرئيسية",
+    "overview": "لوحة التحكم",
+    "courts": "الملاعب",
+    "calendar": "التقويم",
+    "events": "الفعاليات",
+    "players": "اللاعبون",
+    "offers": "العروض",
+    "notifications": "الإشعارات",
+    "logout": "تسجيل الخروج",
+    "searchPlaceholder": "ابحث عن نادٍ أو لاعب أو بطولة…"
+  },
+  "clubDashboard": {
+    "title": "إدارة النادي",
+    "subtitle": "أدِر ملاعبك وتابع الإيرادات والأداء",
+    "export": "تصدير التقرير",
+    "newBooking": "حجز جديد",
+    "exportToast": "تصدير التقرير — قريباً",
+    "newBookingToast": "حجز جديد — قريباً",
+    "kpis": {
+      "vsLastMonth": "مقارنة بالشهر الماضي",
+      "revenue": { "label": "إيراد الشهر" },
+      "reservations": { "label": "الحجوزات" },
+      "players": { "label": "لاعبون جدد" },
+      "occupancy": { "label": "نسبة الإشغال" }
+    },
+    "tabs": {
+      "overview": "نظرة عامة",
+      "pricing": "التسعير",
+      "courts": "إدارة الملاعب"
+    },
+    "revenueTitle": "تحليل الإيرادات",
+    "goal": "الهدف: {amount} د.ت",
+    "series": {
+      "reservations": "الحجوزات (د.ت)",
+      "shop": "المتجر (د.ت)"
+    },
+    "reservationsTitle": "الحجوزات الأخيرة",
+    "seeAll": "عرض الكل",
+    "columns": {
+      "id": "المعرف",
+      "player": "اللاعب",
+      "court": "الملعب",
+      "time": "الوقت",
+      "status": "الحالة",
+      "price": "السعر",
+      "actions": "إجراءات"
+    },
+    "actions": {
+      "checkIn": "تسجيل حضور",
+      "noShow": "غياب",
+      "checkInOk": "تم تسجيل الحضور",
+      "checkInError": "فشل تسجيل الحضور",
+      "noShowOk": "تم تسجيل الغياب",
+      "noShowError": "فشل تسجيل الغياب"
+    },
+    "status": {
+      "confirmed": "مؤكد",
+      "pending": "قيد الانتظار",
+      "paid": "مدفوع",
+      "cancelled": "ملغى"
+    },
+    "agendaTitle": "أجندة اليوم",
+    "live": "مباشر",
+    "weatherTitle": "طقس {city}",
+    "footerVersion": "PadelTunisie Manager v2.4.0",
+    "error": "تعذر تحميل لوحة النادي.",
+    "retry": "إعادة المحاولة"
+  },
+  "clubCourtsPage": {
+    "title": "إدارة الملاعب",
+    "subtitle": "حالة وأسعار ملاعبك.",
+    "bookingsToday": "{count} حجوزات اليوم",
+    "namePlaceholder": "اسم الملعب",
+    "create": "إضافة ملعب",
+    "createOk": "تم إنشاء الملعب",
+    "createError": "تعذر إنشاء الملعب",
+    "empty": "لا توجد ملاعب حالياً.",
+    "activate": "إعادة التفعيل",
+    "maintenance": "وضع الصيانة",
+    "applySchedule": "أوقات 8–22",
+    "updateOk": "تم تحديث الملعب",
+    "updateError": "تعذر التحديث",
+    "scheduleOk": "تم حفظ الأوقات",
+    "scheduleError": "فشل حفظ الأوقات",
+    "status": {
+      "available": "متاح",
+      "occupied": "مشغول",
+      "maintenance": "صيانة"
+    },
+    "error": "تعذر تحميل الملاعب.",
+    "retry": "إعادة المحاولة"
+  },
+  "clubCalendarPage": {
+    "title": "تقويم النادي",
+    "subtitle": "عرض الحجوزات والفعاليات حسب اليوم.",
+    "agendaHint": "فعاليات وحجوزات اليوم المحدد.",
+    "emptyDay": "لا حجوزات لهذا اليوم.",
+    "error": "تعذر تحميل التقويم.",
+    "retry": "إعادة المحاولة"
+  },
+  "clubEventsPage": {
+    "title": "فعاليات النادي",
+    "subtitle": "بطولات وأمريكانو وجلسات اجتماعية.",
+    "empty": "لا توجد فعاليات.",
+    "players": "{count} لاعبين",
+    "titlePlaceholder": "عنوان الفعالية",
+    "create": "إنشاء (أمريكانو)",
+    "createOk": "تم إنشاء الفعالية",
+    "createError": "تعذر الإنشاء",
+    "publish": "نشر",
+    "start": "بدء",
+    "cancel": "إلغاء",
+    "publishOk": "تم النشر",
+    "startOk": "تم البدء",
+    "cancelOk": "تم الإلغاء",
+    "actionError": "تعذر تنفيذ الإجراء",
+    "status": {
+      "upcoming": "قادم",
+      "live": "مباشر",
+      "done": "منتهٍ"
+    },
+    "error": "تعذر تحميل الفعاليات.",
+    "retry": "إعادة المحاولة"
+  },
+  "clubPlayersPage": {
+    "title": "لاعبو النادي",
+    "subtitle": "{count} لاعبين متابعين",
+    "bookings": "{count} حجوزات",
+    "lastVisit": "آخر زيارة: {date}",
+    "error": "تعذر تحميل اللاعبين.",
+    "retry": "إعادة المحاولة"
+  },
+  "clubOffersPage": {
+    "title": "العروض والتسعير",
+    "subtitle": "العروض النشطة على مواعيدك.",
+    "validUntil": "صالح حتى {date}",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "empty": "لا توجد عروض.",
+    "codePlaceholder": "رمز العرض",
+    "percentPlaceholder": "%",
+    "create": "إنشاء",
+    "createOk": "تم إنشاء العرض",
+    "createError": "تعذر الإنشاء",
+    "error": "تعذر تحميل العروض.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminNav": {
+    "menu": "الإدارة",
+    "overview": "لوحة التحكم",
+    "users": "المستخدمون",
+    "clubs": "النوادي",
+    "coaches": "المدربون",
+    "finance": "المالية",
+    "payments": "المدفوعات",
+    "sponsors": "الرعاة",
+    "events": "الفعاليات",
+    "ads": "الإعلانات",
+    "promotions": "العروض",
+    "complaints": "الشكاوى",
+    "federation": "الاتحاد",
+    "settings": "الإعدادات",
+    "notifications": "الإشعارات",
+    "logout": "تسجيل الخروج",
+    "secure": "وحدة آمنة",
+    "searchPlaceholder": "ابحث عن نادٍ أو لاعب أو بطولة…",
+    "more": "المزيد",
+    "moreTitle": "كل الأقسام",
+    "close": "إغلاق"
+  },
+  "adminDashboard": {
+    "title": "لوحة الإدارة",
+    "subtitle": "أدِر المستخدمين والنوادي وصحة منصة PadelTunisie.",
+    "kpis": {
+      "vsLastMonth": "مقارنة بالشهر الماضي",
+      "users": { "label": "إجمالي المستخدمين" },
+      "clubs": { "label": "نوادي شريكة" },
+      "revenue": { "label": "الإيراد الشهري" },
+      "sanctions": { "label": "عقوبات نشطة" }
+    },
+    "tabs": {
+      "overview": "نظرة عامة",
+      "users": "المستخدمون",
+      "clubs": "النوادي",
+      "payments": "المدفوعات",
+      "sanctions": "العقوبات"
+    },
+    "growthTitle": "نمو المنصة",
+    "series": {
+      "revenue": "الإيرادات (د.ت)",
+      "reservations": "الحجوزات"
+    },
+    "activityTitle": "النشاط الأخير",
+    "seeAllHistory": "عرض كل السجل",
+    "usersTitle": "آخر التسجيلات",
+    "usersTitleAll": "كل المستخدمين",
+    "columns": {
+      "user": "المستخدم",
+      "role": "الدور",
+      "status": "الحالة",
+      "reliability": "الموثوقية",
+      "actions": "إجراءات"
+    },
+    "userStatus": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "sanctioned": "معاقب"
+    },
+    "systemsOk": "كل الأنظمة تعمل — التوفر {uptime}",
+    "footer": "© PadelTunisie Admin Console.",
+    "error": "تعذر تحميل لوحة الإدارة.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminUsersPage": {
+    "title": "المستخدمون",
+    "subtitle": "{count} حسابات على المنصة",
+    "error": "تعذر تحميل المستخدمين.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminClubsPage": {
+    "title": "إدارة النوادي",
+    "subtitle": "النوادي الشريكة وطلبات الانضمام.",
+    "courts": "{count} ملاعب",
+    "namePlaceholder": "اسم النادي",
+    "cityPlaceholder": "المدينة",
+    "create": "إنشاء",
+    "createOk": "تم إنشاء النادي",
+    "createError": "تعذر الإنشاء",
+    "activate": "تفعيل",
+    "suspend": "إيقاف",
+    "updateOk": "تم التحديث",
+    "updateError": "تعذر التحديث",
+    "managers": "المديرون",
+    "managerPlaceholder": "بريد أو معرّف",
+    "addManager": "إضافة",
+    "removeManager": "إزالة",
+    "managerOk": "تمت الإضافة",
+    "managerRemoved": "تمت الإزالة",
+    "managerError": "تعذر الإجراء",
+    "status": {
+      "active": "نشط",
+      "pending": "قيد الانتظار",
+      "suspended": "موقوف"
+    },
+    "error": "تعذر تحميل النوادي.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminPaymentsPage": {
+    "title": "المدفوعات",
+    "subtitle": "المعاملات وتنبيهات الاحتيال.",
+    "status": {
+      "success": "ناجح",
+      "pending": "قيد الانتظار",
+      "failed": "فشل",
+      "flagged": "مُبلَّغ"
+    },
+    "error": "تعذر تحميل المدفوعات.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminFinancePage": {
+    "title": "المالية",
+    "subtitle": "إيرادات المنصة والتنبيهات المالية.",
+    "alertsTitle": "تنبيهات للمعالجة",
+    "noAlerts": "لا توجد تنبيهات حرجة.",
+    "error": "تعذر تحميل المالية.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminComplaintsPage": {
+    "title": "الشكاوى والعقوبات",
+    "subtitle": "تذاكر الدعم ونزاعات اللاعبين.",
+    "accept": "قبول",
+    "reject": "رفض",
+    "acceptOk": "تم قبول الطعن",
+    "rejectOk": "تم رفض الطعن",
+    "actionError": "تعذر تنفيذ الإجراء",
+    "status": {
+      "open": "مفتوح",
+      "in_progress": "قيد المعالجة",
+      "resolved": "محلول"
+    },
+    "error": "تعذر تحميل الشكاوى.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminSponsors": {
+    "title": "إدارة الرعاة",
+    "subtitle": "الحملات الإعلانية والشركاء المميزون.",
+    "export": "تصدير التقرير",
+    "newCampaign": "إضافة راعٍ",
+    "exportToast": "التصدير — قريباً",
+    "newCampaignToast": "تم إنشاء الراعي",
+    "createError": "تعذر الإنشاء",
+    "sponsorPlaceholder": "اسم الراعي",
+    "kpis": {
+      "vsLastMonth": "مقارنة بالفترة السابقة",
+      "impressions": { "label": "إجمالي الظهور" },
+      "clicks": { "label": "إجمالي النقرات" },
+      "ctr": { "label": "متوسط CTR" },
+      "revenue": { "label": "إيرادات الرعاة" }
+    },
+    "performanceTitle": "تحليل الأداء",
+    "series": {
+      "impressions": "الظهور",
+      "clicks": "النقرات"
+    },
+    "campaignsTitle": "الحملات النشطة",
+    "campaignStatus": {
+      "active": "نشط",
+      "paused": "متوقف",
+      "draft": "مسودة",
+      "ended": "منتهٍ"
+    },
+    "tipsTitle": "نصائح التحسين",
+    "premiumTitle": "إعلان ملعب مميز",
+    "premiumDesc": "الجدار الخلفي — ملعب 1 و 2 · متاح 01 ديسمبر",
+    "reserveSpace": "احجز المساحة",
+    "reserveSpaceToast": "حجز المساحة — قريباً",
+    "partnersTitle": "شركاؤنا",
+    "error": "تعذر تحميل الرعاة.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminCoachesPage": {
+    "title": "المدربون",
+    "subtitle": "{count} مدربين مسجلين",
+    "emailPlaceholder": "البريد",
+    "firstNamePlaceholder": "الاسم",
+    "lastNamePlaceholder": "اللقب",
+    "create": "إنشاء مدرب",
+    "createOk": "تم الإنشاء",
+    "createError": "تعذر الإنشاء",
+    "allowAssess": "السماح بالتقييم",
+    "assessOk": "تم منح الإذن",
+    "assessError": "فشل الإذن",
+    "error": "تعذر تحميل المدربين.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminEventsPage": {
+    "title": "فعاليات المنصة",
+    "subtitle": "البطولات والجلسات الاجتماعية.",
+    "matchDesk": "مكتب المباريات",
+    "matchId": "معرّف المباراة",
+    "correctResult": "تصحيح النتيجة",
+    "voidMatch": "إلغاء",
+    "resultOk": "تم التصحيح",
+    "resultError": "تعذر التصحيح",
+    "voidOk": "تم الإلغاء",
+    "voidError": "تعذر الإلغاء",
+    "status": {
+      "upcoming": "قادم",
+      "live": "مباشر",
+      "done": "منتهٍ"
+    },
+    "error": "تعذر تحميل الفعاليات.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminFederationPage": {
+    "title": "استيراد الاتحاد",
+    "subtitle": "تراخيص FTT — يُفضّل dry-run.",
+    "filePlaceholder": "licences.xlsx",
+    "dryRun": "تجريبي بدون كتابة",
+    "dryRunBadge": "تجريبي",
+    "import": "تشغيل الاستيراد",
+    "dryRunOk": "معاينة ناجحة",
+    "importOk": "تم الاستيراد",
+    "importError": "تعذر الاستيراد",
+    "empty": "لا استيرادات.",
+    "error": "تعذر التحميل.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminAdsPage": {
+    "title": "الإعلانات",
+    "subtitle": "مخزون الإعلانات والمساحات المميزة.",
+    "hint": "أنشئ إعلاناً ثم أكمله في الرعاة.",
+    "goSponsors": "فتح الرعاة",
+    "titlePlaceholder": "عنوان الإعلان",
+    "create": "إنشاء",
+    "createOk": "تم إنشاء الإعلان",
+    "createError": "تعذر الإنشاء",
+    "empty": "لا إعلانات.",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "activate": "تفعيل",
+    "deactivate": "تعطيل",
+    "updateOk": "تم التحديث",
+    "updateError": "تعذر التحديث",
+    "error": "تعذر التحميل.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminPromotionsPage": {
+    "title": "العروض الترويجية",
+    "subtitle": "العروض الظاهرة في السوق.",
+    "codePlaceholder": "الرمز",
+    "create": "إنشاء",
+    "createOk": "تم الإنشاء",
+    "createError": "تعذر الإنشاء",
+    "error": "تعذر تحميل العروض.",
+    "retry": "إعادة المحاولة"
+  },
+  "adminSettingsPage": {
+    "title": "إعدادات الإدارة",
+    "subtitle": "تكوين المنصة والأمان.",
+    "configure": "إعادة حفظ",
+    "delete": "حذف",
+    "savedToast": "تم الحفظ",
+    "saveError": "فشل الحفظ",
+    "deletedToast": "تم الحذف",
+    "deleteError": "تعذر الحذف",
+    "empty": "لا إعدادات.",
+    "error": "تعذر تحميل الإعدادات.",
+    "retry": "إعادة المحاولة",
+    "maintenance": {
+      "title": "وضع الصيانة",
+      "desc": "إيقاف وصول اللاعبين مؤقتاً."
+    },
+    "notifications": {
+      "title": "إشعارات النظام",
+      "desc": "البريد والتنبيهات التشغيلية."
+    },
+    "security": {
+      "title": "الأمان",
+      "desc": "المصادقة الثنائية وسجلات التدقيق."
+    }
+  },
+  "coachBookingCalendar": {
+    "title": "توفر المدرب",
+    "subtitle": "اختر تاريخاً وموعداً لحصتك.",
+    "coachInfo": "بطاقة المدرب",
+    "sessionDuration": "مدة الحصة",
+    "sessionMinutes": "{minutes} د",
+    "slotsTitle": "المواعيد المتاحة",
+    "specialOfferTitle": "عرض خاص",
+    "specialOfferDesc": "خصم 10٪ على فترات الصباح. عرض محدود لأعضاء PadelTunisie.",
+    "cancelPolicyTitle": "سياسة الإلغاء",
+    "cancelPolicyDesc": "إلغاء مجاني حتى 24 ساعة قبل الحصة. بعد ذلك قد تُطبق رسوم جزئية.",
+    "periods": {
+      "morning": "صباحاً",
+      "afternoon": "بعد الظهر",
+      "evening": "مساءً"
+    },
+    "currency": "د.ت",
+    "status": {
+      "available": "متاح",
+      "occupied": "مشغول",
+      "reserved": "محجوز",
+      "maintenance": "غير متاح"
+    },
+    "legend": {
+      "available": "متاح",
+      "occupied": "مشغول",
+      "reserved": "محجوز",
+      "maintenance": "غير متاح"
+    },
+    "reserveSuccess": "تم حجز الحصة",
+    "reserveSuccessDesc": "{coach} — {start} في {date}",
+    "coachError": "تعذر تحميل هذا المدرب.",
+    "error": "تعذر تحميل التوافر.",
+    "retry": "إعادة المحاولة"
+  },
+  "clubsMarketplace": {
+    "title": "حجز ملعب",
+    "subtitle": "تصفح النوادي والملاعب المتاحة بالقرب منك.",
+    "searchPlaceholder": "ابحث عن نادٍ أو حي…",
+    "filters": {
+      "allCities": "كل المدن"
+    },
+    "results": "{count} نوادي",
+    "card": {
+      "available": "متاح الآن",
+      "busy": "ممتلئ",
+      "courts": "{count} ملاعب",
+      "from": "ابتداءً من",
+      "currency": "د.ت",
+      "book": "احجز",
+      "bookLogin": "احجز (تسجيل الدخول)"
+    },
+    "loading": "جاري تحميل النوادي…",
+    "empty": "لا توجد نوادي لهذه الفلاتر.",
+    "error": "تعذر تحميل النوادي.",
+    "retry": "إعادة المحاولة"
+  },
+  "bookingsPage": {
+    "title": "حجوزاتي",
+    "subtitle": "إدارة الألعاب القادمة وعرض سجل اللعب الخاص بك.",
+    "tabs": {
+      "upcoming": "القادمة ({count})",
+      "history": "السجل"
+    },
+    "empty": "لا حجوزات",
+    "cancelSuccess": "تم إلغاء الحجز",
+    "cancelSuccessRefund": "أُلغي — استرداد {percent}%",
+    "faq": {
+      "title": "المساعدة",
+      "q1": "كيف يعمل الاسترداد؟",
+      "a1": "يعتمد الاسترداد على وقت الإلغاء.",
+      "q2": "هل يمكنني تعديل الموعد؟",
+      "a2": "يمكنك التعديل حتى 24 ساعة قبل البداية.",
+      "q3": "مشكلة مع النادي؟",
+      "a3": "تواصل مع النادي أو الدعم."
+    },
+    "card": {
+      "status": {
+        "confirmed": "مؤكد",
+        "pending": "قيد الانتظار",
+        "held": "بانتظار الدفع",
+        "cancelled": "ملغى"
+      },
+      "date": "التاريخ",
+      "time": "الوقت",
+      "court": "الملعب",
+      "id": "معرف:",
+      "currency": "د.ت",
+      "cancelAction": "إلغاء الحجز",
+      "payNow": "ادفع الآن",
+      "refund": {
+        "full": "مؤهل لاسترداد كامل",
+        "partial": "مؤهل لاسترداد جزئي",
+        "none": "غير قابل للاسترداد"
+      }
+    },
+    "refundPolicy": {
+      "title": "سياسة الاسترداد",
+      "subtitle": "تحقق من قواعد الإلغاء لـ PadelTunisie",
+      "freeCancellation": {
+        "title": "إلغاء مجاني",
+        "desc": "أكثر من 24 ساعة قبل المباراة. استرداد 100٪ إلى محفظتك."
+      },
+      "lateCancellation": {
+        "title": "إلغاء متأخر",
+        "desc": "بين 12 و 24 ساعة. استرداد 50٪ إلى محفظتك."
+      },
+      "noRefund": {
+        "title": "لا يوجد استرداد",
+        "desc": "أقل من 12 ساعة قبل المباراة. النادي يحتفظ بالمبلغ بالكامل."
+      },
+      "velocityPro": {
+        "title": "ضمان Velocity Pro",
+        "desc": "حماية ضد الإلغاءات التعسفية."
+      }
+    },
+    "support": {
+      "title": "المساعدة والدعم",
+      "q1": "كيف يعمل الاسترداد؟",
+      "a1": "يعتمد الاسترداد على وقت الإلغاء...",
+      "q2": "هل يمكنني تغيير الوقت؟",
+      "a2": "يمكنك تغيير الوقت حتى 24 ساعة قبل المباراة...",
+      "q3": "مشكلة مع النادي؟",
+      "a3": "يرجى الاتصال بالنادي مباشرة أو بفريق الدعم لدينا.",
+      "moreHelp": "هل تحتاج إلى مزيد من المساعدة؟"
+    },
+    "wallet": {
+      "availableBalance": "الرصيد المتاح",
+      "currency": "د.ت",
+      "walletName": "محفظة PADELTUNISIE",
+      "historyAction": "عرض سجل المعاملات"
+    }
+  }
+}
